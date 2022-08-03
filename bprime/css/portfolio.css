@@ -1,0 +1,286 @@
+
+ .pagination {
+  margin:40px 0 20px
+ }
+ .pagination>li>a,.pagination>li>span {
+  padding:8px 15px;
+  color: #333;
+  -webkit-transition:all .3s ease;
+  -moz-transition:all .3s ease;
+  -o-transition:all .3s ease;
+  transition:all .3s ease
+ }
+ .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover,.pagination>li>a:focus,.pagination>li>a:hover,.pagination>li>span:focus,.pagination>li>span:hover {
+  color:#fff;
+  -webkit-transition:all .3s ease;
+  -moz-transition:all .3s ease;
+  -o-transition:all .3s ease;
+  transition:all .3s ease;
+  border-color:#ddd;
+  background: #ddd;
+  color: #333;
+ }
+ .pagination>li:first-child>a,.pagination>li:first-child>span {
+  border-top-left-radius:6px;
+  border-bottom-left-radius:6px;
+  padding:8px 20px
+ }
+ .pagination>li:last-child>a,.pagination>li:last-child>span {
+  border-top-right-radius:6px;
+  border-bottom-right-radius:6px;
+  padding:8px 20px
+ }
+/* page headf css end */
+
+
+
+
+
+.portfolio-details{
+  padding: 100px 0px 100px;
+}
+.portfolio-details .owl-nav .owl-next {
+  left: auto;
+  right: 0;
+}
+
+.portfolio-details .carousel {
+  margin-bottom: 30px;
+}
+
+.portfolio-details h2,
+.portfolio-details h3,
+.portfolio-details h4 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .conetnt > ul li {
+  display: inline-block;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 600;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.portfolio-details .conetnt li a {
+  color: #666666;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.portfolio-details .conetnt > ul li i {
+  color: #4285F4;
+  margin-right: 7px;
+}
+
+.portfolio-details .conetnt ul {
+  margin-bottom: 15px;
+}
+
+.portfolio-details .bottom-info {
+  border-top: 1px solid #e7e7e7;
+  float: left;
+  margin-top: 30px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.portfolio-details .bottom-info .tags, 
+.portfolio-details .bottom-info .share {
+  float: left;
+  width: 50%;
+}
+
+.portfolio-details .bottom-info .share {
+  text-align: right;
+}
+
+.portfolio-details .bottom-info .tags li a {
+  border: 1px solid #e7e7e7;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 20px;
+  text-transform: capitalize;
+}
+
+.portfolio-details .bottom-info .tags li a:hover {
+  border: 1px solid #4285F4;
+  background: #4285F4;
+  color: #ffffff;
+}
+
+.portfolio-details .bottom-info .share li a {
+  border: 1px solid #e7e7e7;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 13px;
+  height: 35px;
+  line-height: 34px;
+  padding: 0;
+  text-align: center;
+  width: 35px;
+}
+
+.portfolio-details .related-projects h3 {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.portfolio-details .related-projects h3::after {
+  background: #4285F4 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 50px;
+}
+
+.portfolio-details .related-projects .owl-dots .owl-dot span {
+  background: transparent none repeat scroll 0 0;
+  border: 3px solid #4285F4;
+  height: 15px;
+  margin: 0 5px;
+  width: 15px;
+}
+
+.portfolio-details .related-projects .owl-dots .owl-dot.active span,
+.portfolio-details .related-projects .owl-dots .owl-dot:hover span {
+  background: #4285F4;
+}
+
+.portfolio-details .related-projects .owl-dots {
+  margin-top: 20px !important;
+  margin-bottom: -10px;
+}
+
+.portfolio-details .bottom-info .share li a i {
+  margin: 0;
+}
+
+.portfolio-details .bottom-info .share li a:hover {
+  border: 1px solid #4285F4;
+  background: #4285F4;
+  color: #ffffff !important;
+}
+
+.portfolio-details .bottom-info ul {
+  margin: 0;
+}
+
+.portfolio-details .info span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .info span i {
+  color: #4285F4;
+  margin-right: 7px;
+}
+
+.portfolio-details .col-md-4 .info li {
+  border-bottom: 1px solid #e7e7e7;
+  display: block;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.portfolio-area.related-projects .pf-item .info {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #e7e7e7;
+  box-shadow: inherit;
+  display: inline-block;
+  float: left;
+  padding: 30px;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.portfolio-details .info li span {
+  font-weight: normal;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.portfolio-details .info li:last-child {
+  margin-bottom: 0;
+  border: none;
+  padding-bottom: 0;
+}
+
+.portfolio-details .info {
+  box-shadow: 0 0 10px #cccccc;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+.portfolio-details .conetnt {
+  padding-right: 50px;
+}
+.portfolio-details .conetnt h5{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .info li a {
+  color: #4285F4;
+}
+
+.portfolio-details .bottom-info li {
+  display: inline-block;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.portfolio-details .bottom-info li:first-child {
+  font-size: 16px;
+  margin-right: 7px;
+}
+
+
+.portfolio-details .owl-nav .owl-next {
+  color: #ffffff;
+  height: 40px;
+  left: 15;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  background: left;
+}
+.portfolio-details .owl-nav .owl-prev {
+  color: #ffffff;
+  height: 40px;
+  right: 15;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  background: left;
+}
+.portfolio-details .owl-nav .owl-next i,
+.portfolio-details .owl-nav .owl-prev i{
+display: block;
+font-size: 40px;
+}

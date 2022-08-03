@@ -1,0 +1,852 @@
+/*Css for Large Device*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #choose-us h2 {
+        margin-bottom: 14px;
+    }
+
+    #servicepart h2 {
+        margin-bottom: 13px;
+    }
+
+    #about h4 {
+        margin-bottom: 14px;
+    }
+    #gallery h2 {
+        margin-bottom: 14px;
+    }
+
+    #testimonialpart h2 {
+        margin-bottom: 14px;
+    }
+
+    #pricing h2 {
+        margin-bottom: 14px;
+    }
+    #pricing .price {
+        margin-top: 17px;
+    }
+    #team h2 {
+        margin-bottom: 14px;
+    }
+
+    #faq h2 {
+        margin-bottom: 14px;
+    }
+
+    #blog h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+    }
+    #blog .s-top-p {
+        padding-bottom: 7px;
+    }
+    #blog .single-post .blog-post-img .box {
+        padding: 5px 15px;
+    }
+    #clientpart h2 {
+        margin-bottom: 14px;
+    }
+
+}
+
+/*Css for Medium Device*/
+@media  (max-width: 991.98px) {
+    .navigation .nav-item.dropdown .nav-item.dropdown.child-dropdown:hover .dropdown-menu{
+        left: 0px;
+        width: auto;
+    }
+    .fixed-height {
+        max-height: 280px;
+        -webkit-overflow-y: scroll;
+        -moz-overflow-y: scroll;
+        overflow-y: scroll;
+    }
+    .nav-item.dropdown .dropdown-menu {
+        display: none;
+        top: auto;
+        opacity: 1;
+        background: #fff;
+        position: relative;
+        z-index: -99;
+        visibility: visible;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        transition: all linear .3s;
+    }
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        top: auto;
+        opacity: 1;
+        z-index: 1;
+        visibility: visible;
+    
+    }
+    #navbarSupportedContent ul {
+        padding: 23px 0px 19px;
+    }
+    .contact-form-area.footer-widget {
+        margin-top: 31px;
+    }
+    .address-area.footer-widget {
+        margin-top: 31px;
+    }
+    .footertext {
+        padding-bottom: 85px;
+    }
+    #counterpart {
+        padding: 131px 0px 126px;
+    }
+    #about {
+        padding: 91px 0px 100px;
+    }
+    .contact-info a {
+        font-size: 12px;
+    }
+    #home .socal-link i {
+        font-size: 12px;
+    }
+    .navigation {
+        background: #fff;
+        padding: 7px 0px 7px;
+    }
+    .contact-info i {
+        font-size: 12px;
+    }
+    .navigation .navbar-nav .nav-item .nav-link {
+        line-height: 26px;
+    }
+    .navigation .nav-item .nav-link {
+        padding: 5px 15px 5px;
+    }
+    .layer-1-2 h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .layer-1-1 p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .intro-area .content {
+        padding: 190px 0px 200px;
+    }
+    #pricing .s-h-p {
+        margin-bottom: 26px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    .layer-1-2 h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    #about .about-img {
+        margin-top: 30px;
+    }
+    #pricing .sm-mt-30 {
+        margin-top: 22px;
+    }
+    .navigation .logo-sm {
+        display: block !important;
+    }
+    /* ============ */
+    .card {
+        margin-bottom: 15px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .businessplantext {
+        margin-top: 2%;
+    }
+    .bannertext h5 {
+        margin-bottom: 5px;
+    }
+    #counterpart h5 {
+        margin-bottom: 18px;
+    }
+    #contactuspart p {
+        margin-bottom: 30px;
+    }
+    .contactbg {
+        padding: 28px 15px 0px;
+    }
+
+    .copy-bg p {
+        margin-bottom: 0px !important;
+    }
+    .portfolio-item {
+        width: 50%;
+    }
+    #businessplan {
+        display: none;
+    }
+    /*footer part end*/
+    #choose-us h2 {
+        margin-bottom: 14px;
+    }
+
+    #servicepart h2 {
+        margin-bottom: 13px;
+    }
+    #testimonialpart h2 {
+        margin-bottom: 14px;
+    }
+
+    #pricing h2 {
+        margin-bottom: 14px;
+    }
+    #pricing .price {
+        margin-top: 17px;
+    }
+    #team h2 {
+        margin-bottom: 14px;
+    }
+
+    #faq h2 {
+        margin-bottom: 14px;
+    }
+
+    #blog h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+    }
+
+    #blog .single-post .blog-post-img .box {
+        padding: 5px 15px;
+    }
+    #clientpart h2 {
+        margin-bottom: 14px;
+    }
+
+    .why-choose-thumb a img {
+        width: 100%;
+    }
+    #blog .single-post .blog-post-img img {
+        width: 100%;
+    }
+    .navigation.stiky-nav .form-input {
+        background: none;
+        display: inline-block;
+        height: 100%;
+        padding: 5px;
+        border: 0px;
+        color: #f1f1f1;
+    }
+    #servicepage .s-aside{
+        margin-top: 40px;
+    }
+    .navigation.stiky-nav .logobg2 {
+        display: none;
+    }
+    .navigation.stiky-nav .logobg {
+        display: block;
+    }
+    .slide-caption .slider-inner .caption-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .intro-area .owl-nav{
+        display: none;
+    }
+}
+
+/*Css for Small Device*/
+@media  (max-width: 767.98px) {
+    #home .contact-info {
+        text-align: center;
+    }
+    #home .socal-link {
+        text-align: center;
+    }
+    #counterpart p {
+        font-size: 40px;
+    }
+    .layer-1-2 h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .why-choose-text h3 a {
+        font-size: 21px;
+    }
+
+    #servicepage .s-video-bottom-content h5 {
+        font-size: 21px;
+        font-weight: 500;
+    }
+    #servicepage #about h5 {
+        font-weight: 500;
+        font-size: 21px;
+    }
+    .portfolio-details .conetnt h5 {
+        font-size: 21px;
+        font-weight: 500;
+    }
+
+    #about {
+        padding: 62px 0px 100px;
+    }
+
+    .sidebar .search-form input {
+        margin-top: 34px;
+    }
+    .price {
+        margin-top: 20px;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #about .about-img {
+        margin-top: 30px;
+    }
+    #pricing .sm-mt-30 {
+        margin-top: 22px;
+    }
+
+    .slider-images img {
+        height: 340px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .bannertext h5 {
+        margin-bottom: 5px;
+    }
+    #about h4 {
+        margin-top: 30px;
+    }
+
+    .sm-mt-30 {
+        margin-top: 30px;
+    }
+    .modal-body p {
+        padding-top: 15px;
+    }
+
+    #counterpart h5 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    #contactuspart p {
+        margin-bottom: 30px;
+    }
+    .contactbg {
+        padding: 28px 15px 0px;
+    }
+    .copy-bg p {
+        margin-bottom: 0px !important;
+    }
+    .portfolio-item {
+        width: 100%;
+        padding: 0;
+    }
+    .portfolio-item+.portfolio-item {
+        margin-top: 10px;
+    }
+    #businessplan {
+        display: none;
+    }
+
+    #choose-us h2 {
+        margin-bottom: 14px;
+    }
+
+    #servicepart h2 {
+        margin-bottom: 13px;
+    }
+
+    #about h4 {
+        margin-bottom: 14px;
+    }
+    #gallery h2 {
+        margin-bottom: 14px;
+    }
+    #testimonialpart h2 {
+        margin-bottom: 14px;
+    }
+    #pricing h2 {
+        margin-bottom: 14px;
+    }
+    #team h2 {
+        margin-bottom: 14px;
+    }
+
+    #faq h2 {
+        margin-bottom: 14px;
+    }
+
+    #blog h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+    }
+ 
+    #blog .single-post .blog-post-img .box {
+        padding: 5px 15px;
+    }
+    #clientpart h2 {
+        margin-bottom: 14px;
+    }
+ 
+    .protfolio-filter li {
+        padding: 7px 15px;
+    }
+   
+    #accordion-2 {
+        margin-top: 30px;
+    }
+
+    #map {
+        height: 400px;
+    }
+    #footerbg {
+        padding: 68px 0 0;
+    }
+    .footertext {
+        padding-bottom: 58px;
+    }
+
+
+    #servicepage .s-aside{
+        margin-top: 40px;
+    }
+    #servicepage .s-bottom-content-2{
+        margin-top: 40px;
+    }
+    #servicepage #about {
+        padding: 60px 0px 98px;
+    }
+    .portfolio-details .info {
+        margin-top: 50px;
+    }
+    .portfolio-details .bottom-info .tags, .portfolio-details .bottom-info .share {
+        float: left;
+        width: 100%;
+    }
+    .portfolio-details .bottom-info .share {
+        text-align: left;
+        margin-top: 15px;
+    }
+    
+    #forzerofour h2{
+        font-size: 100px!important;
+      }
+    #forzerofour h3{
+        font-size: 20px;
+      }
+      .navigation.stiky-nav .logobg2 {
+        display: none;
+    }
+    .navigation.stiky-nav .logobg {
+        display: block;
+    }
+    .slide-caption .slider-inner .caption-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .slide-caption .slider-inner .caption-title {
+        margin-bottom: 20px;
+    }
+    .intro-area .owl-nav{
+        display: none;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+  
+    #about .about-img {
+        margin-top: 30px;
+    }
+
+    .navigation .logo-sm {
+        display: block !important;
+        padding-left: 15px;
+    }
+    .slider-images img {
+        height: 300px;
+    }
+    .slider-content {
+        margin-top: -131px;
+    }
+    .why-choose-thumb a img {
+        width: 100%;
+    }
+    #blog .single-post .blog-post-img img {
+        width: 100%;
+    }
+    .pl {
+        padding-left: 15px;
+    }
+    .bannertext h5 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .bannertext p {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .bannertext a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .businessplantext h5 {
+        font-size: 20px;
+    }
+    .businessplantext p {
+        font-size: 16px;
+    }
+    .businessplantext {
+        margin-right: 15px;
+    }
+ 
+    .portfolio-item {
+        width: 100%;
+    }
+    .portfolio-item+.portfolio-item {
+        margin-top: 10px;
+    }
+    .modal-body p {
+        padding-top: 15px;
+    }
+
+    .pricing-category {
+        margin-bottom: 30px;
+    }
+    #counterpart h5 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .testimonial {
+        margin: 0px;
+        margin: 0px 15px;
+    }
+
+    .contactbg {
+        padding: 30px 15px 0px;
+    }
+    .footertext .manu {
+        margin-top: 30px;
+    }
+    #choose-us h2 {
+        margin-bottom: 14px;
+    }
+
+    #servicepart h2 {
+        margin-bottom: 13px;
+    }
+ 
+    #about h4 {
+        margin-bottom: 14px;
+    }
+    #gallery h2 {
+        margin-bottom: 14px;
+    }
+
+    #testimonialpart h2 {
+        margin-bottom: 14px;
+    }
+ 
+    #pricing h2 {
+        margin-bottom: 14px;
+    }
+
+    #team h2 {
+        margin-bottom: 14px;
+    }
+   
+    #faq h2 {
+        margin-bottom: 14px;
+    }
+  
+    #blog h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+    }
+    #blog .s-top-p {
+        padding-bottom: 7px;
+    }
+    #blog .single-post .blog-post-img .box {
+        padding: 5px 15px;
+    }
+    #clientpart h2 {
+        margin-bottom: 14px;
+    }
+ 
+
+    .protfolio-filter li {
+        padding: 5px 15px;
+        font-size: 14px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+  
+    #accordion-2 {
+        margin-top: 30px;
+    }
+
+    #map {
+        height: 400px;
+    }
+
+
+    h2 {
+        font-size: 30px !important;
+    }
+    .protfolio-filter {
+        margin-bottom: 15px;
+    }
+
+    #about h4 {
+        font-size: 30px;
+    }
+    .comments-container .comments-list li {
+        background: #f3f3f3;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 15px;
+        min-height: 120px;
+        padding-top: 110px;
+       }
+       
+    #servicepage .s-aside{
+        margin-top: 40px;
+    }
+    #servicepage .s-bottom-content-2{
+        margin-top: 40px;
+    }
+
+    .portfolio-details .info {
+        margin-top: 50px;
+    }
+    .portfolio-details .bottom-info .tags, .portfolio-details .bottom-info .share {
+        float: left;
+        width: 100%;
+    }
+    .portfolio-details .bottom-info .share {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    #forzerofour h2{
+        font-size: 100px!important;
+      }
+    #forzerofour h3{
+        font-size: 20px;
+      }
+      .navigation.stiky-nav .logobg2 {
+        display: none;
+    }
+    .navigation.stiky-nav .logobg {
+        display: block;
+    }
+    .slide-caption .slider-inner .caption-title {
+        font-size: 22px;
+    line-height: 25px;
+    }
+    .slide-caption .slider-inner .caption-desc {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .slide-caption .slider-inner .caption-title {
+        margin-bottom: 20px;
+    }
+    .intro-area .owl-nav{
+        display: none;
+    }
+    .navigation .logobg {
+        padding-left: 15px;
+    }
+    .slide-caption .slider-inner .slide-btn a {
+        margin: 0px 5px;
+    }
+    .slide-btn a {
+        width: 125px;
+    }
+    #home .navbar {
+        padding: 0px 15px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 0px;
+        padding: 0px;
+    }
+    .contact-info a {
+        font-size: 14px;
+    }
+    #home .socal-link i {
+        font-size: 14px;
+    }
+    .layer-1-2 h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .layer-1-1 p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .layer-1-2 {
+        margin: 0px 0px 20px;
+    }
+    .intro-area .content {
+        padding: 272px 0px 150px;
+    }
+    .why-choose-inner:hover {
+        margin-top: 0px;
+    }
+
+    #footerbg .manu.footer-widget h6{
+        margin-top: 10px;
+    }
+    #footerbg .manu.footer-widget h6 {
+        margin-top: 30px;
+    }
+    #about h4 {
+        margin-top: 23px;
+    }
+    .protfolio-filter li {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .sidebar .search-form {
+        max-width: 100%;
+    }
+    #about {
+        padding: 70px 0px 100px;
+    }
+    #pricing {
+        padding: 92px 0px 70px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 414px) {
+
+    .ready-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 24px !important;
+    }
+    #about h4 {
+        font-size: 24px;
+    }.about-links .link {
+        padding: 15px 25px;
+        font-size: 14px;
+    
+    }
+    #about .about-video {
+        width: 60px;
+        height: 60px;
+    }
+    .about-video::before {
+        width: 80px;
+        height: 80px;
+    }
+    #about .about-video i {
+        color: #4285F4;
+        font-size: 20px;
+        line-height: 60px;
+    }
+    #counterpart {
+        padding: 84px 0px 84px;
+    }
+    .testimonial h6 {
+        font-size: 18px;
+    }
+    .testimonial h5 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .join a {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+    .single-blog .blog-box h3 {
+        font-size: 21px;
+    }
+    .comments-form .btn-default {
+        padding: 12px 25px;
+    
+    }
+    .sidebar .sidebar-widget h4 {
+        font-size: 21px;
+    }
+   #forzerofour .btn-contact {
+        padding: 15px 28px;
+    }
+    #contact-main .contact-form h4 {
+        font-size: 24px;
+    }
+    #contact-main .contact-address h4 {
+        font-size: 24px;
+    }
+
+}
+
+
+@media (max-width: 385px) {
+    .layer-1-2 h1 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+
+}
+@media (max-width: 331px) {
+    .ready-btn {
+        margin-right: 2px;
+    }
+    .about-links .link {
+        padding: 12px 20px;
+        margin-right: 2px;
+    }
+}

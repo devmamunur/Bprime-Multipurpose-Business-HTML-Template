@@ -1,0 +1,154 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .single-feature-list .title {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 36px;
+        transition: all 0.3s ease-in 0s;
+    }
+    
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .social-links {
+        text-align: center;
+    }
+    .boxed-btn {
+        padding: 5px 15px;
+        border-radius: 5px;
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    .single-showcase h1 {
+        font-size: 16px;
+    }
+    .showcase-thumb:hover a {
+        left: 35%;
+    }
+    .header-area {
+        padding: 120px 0;
+    }
+    .social-links {
+        text-align: center;
+    }
+    .boxed-btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 14px;
+    }
+    .showcase-thumb img{
+        width: 100%;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 600px) {
+    .header-area h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .header-area p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    img.header-logo {
+        max-width: 50%;
+    }
+    .header-area h2 {
+
+    font-size: 39px;
+    line-height: 40px;
+
+}
+}
+@media only screen and (max-width: 480px) {
+    .header-area h1 {
+        font-size: 42px;
+        line-height: 45px;
+    }
+    .header-area .btn-wrapper .boxed-btn {
+        width: 150px;
+        height: 55px;
+    }
+    .header-area .btn-wrapper .boxed-btn:last-child {
+        width: 150px;
+        height: 55px;
+    }
+    .section-title .title {
+        font-size: 35px;
+        line-height: 40px;
+        font-weight: 800;
+    }
+    .section-title .subtitle {
+        font-size: 16px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 414px) { 
+    .header-area h1 {
+        font-size: 42px;
+        line-height: 45px;
+    }
+    .header-area .btn-wrapper .boxed-btn {
+        width: 150px;
+        height: 55px;
+    }
+    .header-area .btn-wrapper .boxed-btn:last-child {
+        width: 150px;
+        height: 55px;
+    }
+}
+
+@media only screen and (max-width: 384px){
+    .section-title .title {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 800;
+    }
+    .section-title .subtitle {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .header-area .btn-wrapper .boxed-btn:first-child{
+        margin-bottom: 10px;
+    }
+    img.header-logo {
+        max-width: 80%;
+    }
+    .header-area p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .showcase-thumb .hover h4 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .header-area p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .showcase-thumb a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px){
+    
+    .header-area p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .header-area .btn-wrapper .boxed-btn ,
+    .header-area .btn-wrapper .boxed-btn:last-child {
+        width: 146px;
+        height: 45px;
+        line-height: 40px;
+        padding: 0;
+    }
+}

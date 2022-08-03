@@ -1,0 +1,113 @@
+
+ .pagination {
+  margin:40px 0 20px
+ }
+ .pagination>li>a,.pagination>li>span {
+  padding:8px 15px;
+  color: #333;
+  -webkit-transition:all .3s ease;
+  -moz-transition:all .3s ease;
+  -o-transition:all .3s ease;
+  transition:all .3s ease
+ }
+ .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover,.pagination>li>a:focus,.pagination>li>a:hover,.pagination>li>span:focus,.pagination>li>span:hover {
+  color:#fff;
+  -webkit-transition:all .3s ease;
+  -moz-transition:all .3s ease;
+  -o-transition:all .3s ease;
+  transition:all .3s ease;
+  border-color:#ddd;
+  background: #ddd;
+  color: #333;
+ }
+ .pagination>li:first-child>a,.pagination>li:first-child>span {
+  border-top-left-radius:6px;
+  border-bottom-left-radius:6px;
+  padding:8px 20px
+ }
+ .pagination>li:last-child>a,.pagination>li:last-child>span {
+  border-top-right-radius:6px;
+  border-bottom-right-radius:6px;
+  padding:8px 20px
+ }
+
+
+ /* service body start */
+ #servicepage .sarvicecard{
+   margin-top: 30px;
+ }
+ #servicepage #servicepart .s-h-p {
+  margin-bottom: 16px;
+}
+ #servicepage #servicepart {
+  padding: 91px 0px 100px;
+}
+#servicepage .serviceblockquote{
+  background: whitesmoke;
+  display: block;
+  padding: 15px 15px 15px 30px;
+  color: #8e8b8b;
+  border-left: 4px solid #8e8b8b;
+  margin: 20px 0px 20px;
+}
+#servicepage p{
+  color: #555;
+}
+#servicepage .s-opt{
+  margin-top: 20px;
+}
+#servicepage .s-opt p i{
+  padding-right: 7px;
+}
+#servicepage .s-opt ul li p{
+  padding-right: 7px;
+  line-height: 40px;
+}
+#servicepage .s-aside{
+  background: whitesmoke;
+  padding: 15px;
+  border-radius: 3px;
+}
+#servicepage .s-aside h3{
+  font-size: 22px;
+  font-weight: 600;
+}
+#servicepage .s-aside ul li{
+  line-height: 40px;
+}
+#servicepage .s-aside ul li a{
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+#servicepage .s-aside ul li a:hover{
+  color: #4285F4;
+}
+
+#servicepage #contactuspart p{
+  color: #fff;
+}
+#servicepage #video-area{
+  background: whitesmoke;
+  padding: 100px 0px 100px;
+}
+#servicepage #about h5{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#servicepage .s-t-part{
+  padding-bottom: 87px;
+}
+#servicepage .s-video-bottom-content h5{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#servicepage .s-video-bottom-content{
+  padding-top: 100px;
+} 
+
+ /* service body end */
